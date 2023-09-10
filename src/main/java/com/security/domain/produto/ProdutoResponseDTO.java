@@ -1,4 +1,4 @@
-package com.security.domain;
+package com.security.domain.produto;
 
 public record ProdutoResponseDTO(Long id, String nome, Integer preco) {
 	
