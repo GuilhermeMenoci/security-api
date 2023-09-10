@@ -1,4 +1,4 @@
-package com.security.domain;
+package com.security.domain.produto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

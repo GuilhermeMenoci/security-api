@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.security.domain.Produto;
-import com.security.domain.ProdutoRequestDTO;
-import com.security.domain.ProdutoResponseDTO;
+import com.security.domain.produto.Produto;
+import com.security.domain.produto.ProdutoRequestDTO;
+import com.security.domain.produto.ProdutoResponseDTO;
 import com.security.repository.ProdutoRepository;
 
 import jakarta.validation.Valid;
