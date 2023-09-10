@@ -39,6 +39,13 @@ public class Usuario implements UserDetails {
 	private String senha;
 	
 	private UsuarioRegras regra;
+	
+	public Usuario(String login, String senha, UsuarioRegras regra) {
+		super();
+		this.login = login;
+		this.senha = senha;
+		this.regra = regra;
+	}
 
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -78,5 +85,5 @@ public class Usuario implements UserDetails {
 	public boolean isEnabled() {
 		return true;
 	}
-	
+
 }
